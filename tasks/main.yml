@@ -1,6 +1,6 @@
 ---
     - name: create patch configuration
-      patch_configuration:
+      nikhilpatne.manageengine.patch_configuration:
         url: "{{ url }}"
         port: "{{ port }}"
         username: "{{ username }}"
